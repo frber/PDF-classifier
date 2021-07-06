@@ -100,7 +100,7 @@ def ladda_modell():
 
 
 def main():
-    filvag = r'C:\Users\berfre\Desktop\testpdf'
+    filvag = r'C:\Users\berfre\Desktop\testpdf' # Set path to where the PDF:s you want to predict are.
     model = ladda_modell()
     tokenizer = ladda_tokenizer()
     sok_pdf(filvag, model, tokenizer)
